@@ -46,9 +46,13 @@ header {
         .hamburger-nav {
             display: none;
             cursor: pointer;
+            a {
+                color: $textColor;
+            }
             @media (max-width:576px) {
                 display: block;
                 font-size: 1.3em;
+                
                 
             }
             @media (min-width:576px) and (max-width:991px){
@@ -288,7 +292,7 @@ footer {
     }
     .footer-menu-cont {
         @media (max-width:576px) {
-            margin-top: 50em;  
+            margin-top: 70em;  
         }
         .footer-menu {
             @include flexRow(space-around);

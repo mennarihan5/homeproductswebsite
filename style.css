@@ -29,6 +29,9 @@ header .responsive-nav .hamburger-nav {
   display: none;
   cursor: pointer;
 }
+header .responsive-nav .hamburger-nav a {
+  color: #0a0a0a;
+}
 @media (max-width: 576px) {
   header .responsive-nav .hamburger-nav {
     display: block;
@@ -311,7 +314,7 @@ header .logo a img {
 }
 @media (max-width: 576px) {
   footer .footer-menu-cont {
-    margin-top: 50em;
+    margin-top: 70em;
   }
 }
 footer .footer-menu-cont .footer-menu {

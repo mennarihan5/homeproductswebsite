@@ -99,9 +99,7 @@ function renderCartItems() {
 // CHANGE QUANTITY OF ITEMS
 function changeQuantity(action, id) {
     cart = cart.map((el) => {
-
         let numberOfUnits = el.numberOfUnits;
-
         if (el.id === id) {
             if (action === "minus" && numberOfUnits > 1) {
                 numberOfUnits--;
