@@ -311,7 +311,7 @@ header .logo a img {
 }
 @media (max-width: 576px) {
   footer .footer-menu-cont {
-    margin-top: 71em;
+    margin-top: 50em;
   }
 }
 footer .footer-menu-cont .footer-menu {

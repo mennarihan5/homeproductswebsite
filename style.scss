@@ -288,7 +288,7 @@ footer {
     }
     .footer-menu-cont {
         @media (max-width:576px) {
-            margin-top: 71em;  
+            margin-top: 50em;  
         }
         .footer-menu {
             @include flexRow(space-around);
