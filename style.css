@@ -223,7 +223,7 @@ header .logo a img {
 .main-home .img-grid .img-grid-cont p {
   text-align: center;
   font-size: 1.3em;
-  margin: 10%;
+  margin: 2%;
 }
 .main-home .img-grid .grid-img1 {
   grid-column: 1/3;
@@ -304,9 +304,14 @@ header .logo a img {
   }
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+  footer {
+    margin-top: 13%;
+  }
+}
 @media (max-width: 576px) {
   footer .footer-menu-cont {
-    margin-top: 55em;
+    margin-top: 71em;
   }
 }
 footer .footer-menu-cont .footer-menu {
@@ -493,7 +498,7 @@ main .products-container .product-card .products-text .product-icons .fav-icon:h
 @media (max-width: 576px) {
   main .products-container .product-card {
     width: 100%;
-    height: 33em;
+    height: 36em;
   }
 }
 @media (min-width: 576px) and (max-width: 991px) {
